@@ -2,6 +2,8 @@
 
 Official documentation website for GreenCome Mapping MLO projects built with VitePress.
 
+🌐 **Live Site**: https://docs.greencom-maps.com
+
 ## 🚀 Quick Start
 
 ### Development
