@@ -11,8 +11,8 @@ Main textures and their location in YTD libraries. You can safely replace all th
 <table>
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-1.png" alt="gc_bclub_exterior" width="200" height="200" />
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-2.png" alt="gc_bclub_exterior1" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-1.png" alt="gc_bclub_exterior" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-2.png" alt="gc_bclub_exterior1" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_exterior<br>
@@ -22,7 +22,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-3.png" alt="gc_bclub_art" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-3.png" alt="gc_bclub_art" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_art<br>
@@ -32,7 +32,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-4.png" alt="gc_bclub_int" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-4.png" alt="gc_bclub_int" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -42,7 +42,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-5.png" alt="gc_bclub_int" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-5.png" alt="gc_bclub_int" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -52,7 +52,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-6.png" alt="gc_bclub_int" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-6.png" alt="gc_bclub_int" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -62,7 +62,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-7.png" alt="gc_garage_art_02" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-7.png" alt="gc_garage_art_02" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -72,8 +72,8 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-8.png" alt="gc_garage_art_01" width="200" height="200" />
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-9.png" alt="gc_garage_art_01_1" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-8.png" alt="gc_garage_art_01" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-9.png" alt="gc_garage_art_01_1" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -83,9 +83,9 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-10.png" alt="gc_garage_posters_01" width="200" height="200" />
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-11.png" alt="gc_garage_posters_01_1" width="200" height="200" />
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-12.png" alt="gc_garage_posters_01_2" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-10.png" alt="gc_garage_posters_01" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-11.png" alt="gc_garage_posters_01_1" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-12.png" alt="gc_garage_posters_01_2" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -95,8 +95,8 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-13.png" alt="gc_bclub_wall_graffiti_01" width="200" height="200" />
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-14.png" alt="gc_bclub_wall_graffiti_01_2" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-13.png" alt="gc_bclub_wall_graffiti_01" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-14.png" alt="gc_bclub_wall_graffiti_01_2" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -106,7 +106,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-15.png" alt="gc_bclub_table_planning" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-15.png" alt="gc_bclub_table_planning" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_art<br>
@@ -116,7 +116,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-16.png" alt="gc_garage_posters_03" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-16.png" alt="gc_garage_posters_03" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -126,7 +126,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-17.png" alt="wallpaper_txt_check" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-17.png" alt="wallpaper_txt_check" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -136,7 +136,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-18.png" alt="gc_garage_posters_04" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-18.png" alt="gc_garage_posters_04" width="200" height="200" />
     </td>
     <td>
       <strong>YTD NAME:</strong> gc_bclub_int<br>
@@ -157,7 +157,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-19.png" alt="gc_bclub_bar_chair" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-19.png" alt="gc_bclub_bar_chair" width="200" height="200" />
     </td>
     <td>
       gc_bclub_bar_chair
@@ -166,7 +166,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-20.png" alt="gc_bclub_scene_chair" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-20.png" alt="gc_bclub_scene_chair" width="200" height="200" />
     </td>
     <td>
       gc_bclub_scene_chair
@@ -175,7 +175,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-21.png" alt="gc_bclub_lounge_sofa" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-21.png" alt="gc_bclub_lounge_sofa" width="200" height="200" />
     </td>
     <td>
       gc_bclub_lounge_sofa
@@ -184,7 +184,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-22.png" alt="gc_bclub_prop_chair_01" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-22.png" alt="gc_bclub_prop_chair_01" width="200" height="200" />
     </td>
     <td>
       gc_bclub_prop_chair_01
@@ -193,7 +193,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-23.png" alt="gc_bclub_prop_chest_sofa_01" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-23.png" alt="gc_bclub_prop_chest_sofa_01" width="200" height="200" />
     </td>
     <td>
       gc_bclub_prop_chest_sofa_01
@@ -202,7 +202,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-24.png" alt="gc_bclub_prop_chest_sofa_02" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-24.png" alt="gc_bclub_prop_chest_sofa_02" width="200" height="200" />
     </td>
     <td>
       gc_bclub_prop_chest_sofa_02
@@ -211,7 +211,7 @@ For script creators
 
   <tr>
     <td>
-      <ImageZoom src="/images/mlo/mc-clubhouse/image-25.png" alt="gc_bclub_prop_chest_sofa_03" width="200" height="200" />
+      <ImageZoom src="/website_docs/images/mlo/mc-clubhouse/image-25.png" alt="gc_bclub_prop_chest_sofa_03" width="200" height="200" />
     </td>
     <td>
       gc_bclub_prop_chest_sofa_03
