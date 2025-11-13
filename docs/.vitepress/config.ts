@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'GreenCome Mapping Wiki',
   description: 'Documentation for GreenCome Mapping MLO Projects',
   lang: 'en-US',
-  base: '/',
+  base: '/website_docs/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'preconnect', href: 'https://github.com' }],
