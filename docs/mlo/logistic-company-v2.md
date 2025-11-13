@@ -11,31 +11,31 @@
 
 <table>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-1.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-1.png" width="200" /></td>
     <td>
       <strong>default</strong>
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-2.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-2.png" width="200" /></td>
     <td>
       <strong>garage_no_crates</strong>
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-3.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-3.png" width="200" /></td>
     <td>
       <strong>garage_no_stops</strong>
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-4.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-4.png" width="200" /></td>
     <td>
       <strong>garage_clear</strong>
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-5.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-5.png" width="200" /></td>
     <td>
       <strong>garage_mechanics</strong>
     </td>
@@ -54,28 +54,28 @@ Main textures and their location in YTD libraries. You can safely replace all th
 
 <table>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-6.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-6.png" width="200" /></td>
     <td>
       <strong>YTD NAME:</strong> gc_logi_v2_exterior<br>
       <strong>Texture NAME:</strong> gc_logi_v2_logo_exterior
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-7.png" width="250" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-7.png" width="250" /></td>
     <td>
       <strong>YTD NAME:</strong> gc_logi_v2_int<br>
       <strong>Texture NAME:</strong> gc_logistic_v2_wall_txt_01
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-8.png" width="250" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-8.png" width="250" /></td>
     <td>
       <strong>YTD NAME:</strong> gc_logi_v2_int<br>
       <strong>Texture NAME:</strong> logi_v2_usa_blackwhite_alpha
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-9.png" width="250" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-9.png" width="250" /></td>
     <td>
       <strong>YTD NAME:</strong> gc_logi_v2_exterior<br>
       <strong>Texture NAME:</strong> logi_v2_posters_exterior<br>
@@ -83,7 +83,7 @@ Main textures and their location in YTD libraries. You can safely replace all th
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-10.png" width="250" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-10.png" width="250" /></td>
     <td>
       <strong>YTD NAME:</strong> gc_logi_v2_int<br>
       <strong>Texture NAME:</strong> gc_logi_v2_room_names
@@ -101,7 +101,7 @@ For script creators
 
 <table>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-11.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-11.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_bahama_01a<br>
       gc_logi_v2_prop_pallet_bahama_01b<br>
@@ -109,13 +109,13 @@ For script creators
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-12.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-12.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_cement
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-13.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-13.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_dailyglobe_01a<br>
       gc_logi_v2_prop_pallet_dailyglobe_01b<br>
@@ -123,19 +123,19 @@ For script creators
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-14.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-14.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_tv
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-15.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-15.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_piants
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-16.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-16.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_autoexotic_01a<br>
       gc_logi_v2_prop_pallet_autoexotic_01b<br>
@@ -143,7 +143,7 @@ For script creators
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-17.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-17.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_bainko_01a<br>
       gc_logi_v2_prop_pallet_bainko_01b<br>
@@ -151,7 +151,7 @@ For script creators
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-18.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-18.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_cluckin_01a<br>
       gc_logi_v2_prop_pallet_cluckin_01b<br>
@@ -159,7 +159,7 @@ For script creators
     </td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-19.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-19.png" width="100" /></td>
     <td>
       gc_logi_v2_prop_pallet_atomic_01a<br>
       gc_logi_v2_prop_pallet_atomic_01b<br>
@@ -172,31 +172,31 @@ For script creators
 
 <table>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-20.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-20.png" width="100" /></td>
     <td>gc_logi_v2_office_wheel_chair</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-21.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-21.png" width="100" /></td>
     <td>gc_logi_v2_canteen_chair</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-22.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-22.png" width="100" /></td>
     <td>gc_logi_v2_sofa_01a</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-23.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-23.png" width="100" /></td>
     <td>gc_logi_v2_prop_comf_chair</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-24.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-24.png" width="100" /></td>
     <td>gc_logi_v2_studychair_01a</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-25.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-25.png" width="100" /></td>
     <td>gc_logi_v2_studychair_01b</td>
   </tr>
   <tr>
-    <td><ImageZoom src="/website_docs/images/mlo/logistic-company/image-26.png" width="100" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-26.png" width="100" /></td>
     <td>gc_logi_v2_office_chair_static</td>
   </tr>
 </table>
