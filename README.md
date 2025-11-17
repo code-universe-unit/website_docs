@@ -1,6 +1,6 @@
-# GreenCome Mapping Wiki
+# GreenCom Mapping Wiki
 
-Official documentation website for GreenCome Mapping MLO projects built with VitePress.
+Official documentation website for GreenCom Mapping MLO projects built with VitePress.
 
 🌐 **Live Site**: https://docs.greencom-maps.com
 
@@ -49,10 +49,10 @@ docs/
 ## 🔗 Links
 
 - [Forum CFX](https://forum.cfx.re/u/greenbeerg_21)
-- [Patreon](https://www.patreon.com/greencome)
+- [Patreon](https://www.patreon.com/GreenCom)
 - [YouTube](https://www.youtube.com/channel/UC0uhGXCogdAQoAUPqldL71g)
 - [Discord](https://discord.gg/P3f8XQWpfc)
-- [Tebex Store](https://greencome-mapping.tebex.io/)
+- [Tebex Store](https://GreenCom-mapping.tebex.io/)
 
 ## 🛠️ Tech Stack
 
@@ -62,4 +62,4 @@ docs/
 
 ## 📝 License
 
-Copyright © 2025 GreenCome Mapping
+Copyright © 2025 GreenCom Mapping
