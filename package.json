@@ -24,7 +24,6 @@
     "vitepress": "^1.5.0"
   },
   "dependencies": {
-    "@iconify/vue": "^5.0.0",
     "medium-zoom": "^1.1.0",
     "viewerjs": "^1.11.7"
   },

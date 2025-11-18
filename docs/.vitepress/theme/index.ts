@@ -1,9 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress';
-import CustomIcon from './components/CustomIcon.vue';
 import ImageZoom from './components/ImageZoom.vue';
-import HeroSection from './components/HeroSection.vue';
-import FeaturesSection from './components/FeaturesSection.vue';
 import { nextTick, onMounted, watch } from 'vue';
 import { useRoute } from 'vitepress';
 import './style.css';
@@ -11,12 +8,8 @@ import './style.css';
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    // Регистрируем глобальные компоненты
-    // Убрали Icon из @iconify/vue - он вызывает конфликт
-    app.component('CustomIcon', CustomIcon);
+    // Регистрируем только используемые компоненты
     app.component('ImageZoom', ImageZoom);
-    app.component('HeroSection', HeroSection);
-    app.component('FeaturesSection', FeaturesSection);
   },
   setup() {
     const route = useRoute();

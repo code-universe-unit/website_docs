@@ -29,9 +29,6 @@ export default defineConfig({
         output: {
           manualChunks: (id) => {
             if (id.includes('node_modules')) {
-              if (id.includes('@iconify')) {
-                return 'iconify'
-              }
               return 'vendor'
             }
           }
@@ -39,10 +36,10 @@ export default defineConfig({
       }
     },
     optimizeDeps: {
-      include: ['@iconify/vue']
+      include: []
     },
     ssr: {
-      noExternal: ['@iconify/vue', 'mark.js']
+      noExternal: ['mark.js']
     }
   },
   
