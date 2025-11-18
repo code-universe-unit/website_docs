@@ -24,13 +24,20 @@ export default {
     
     const initImageViewer = () => {
       // Проверка на клиентскую сторону
-      if (typeof window === 'undefined') return;
+      if (typeof window === 'undefined') {
+        console.log('[Viewer] Running on server, skipping initialization');
+        return;
+      }
+      
+      console.log('[Viewer] Initializing image viewer...');
       
       nextTick(() => {
         import('viewerjs').then(({ default: Viewer }) => {
           const images = document.querySelectorAll('.vp-doc img:not(.VPImage):not(.no-zoom)');
+          console.log(`[Viewer] Found ${images.length} images to initialize`);
+          
           if (images.length > 0) {
-            images.forEach(img => {
+            images.forEach((img, index) => {
               // Добавляем cursor pointer
               (img as HTMLElement).style.cursor = 'zoom-in';
               
@@ -60,10 +67,13 @@ export default {
                 keyboard: true,
                 backdrop: true,
               });
+              console.log(`[Viewer] Initialized viewer for image ${index + 1}`);
             });
+          } else {
+            console.warn('[Viewer] No images found to initialize');
           }
         }).catch(err => {
-          console.error('Failed to load viewerjs:', err);
+          console.error('[Viewer] Failed to load viewerjs:', err);
         });
       });
     };
