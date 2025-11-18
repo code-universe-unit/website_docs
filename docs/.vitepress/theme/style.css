@@ -352,7 +352,12 @@ html:not(.dark) .VPFeature:hover {
 .VPFeature .icon {
   font-size: 2.5rem !important;
   margin-bottom: 1rem !important;
-  display: block;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 80px !important;
+  height: 80px !important;
+  line-height: 1 !important;
 }
 
 .VPFeature .title {
