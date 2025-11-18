@@ -5,11 +5,8 @@ import CustomIcon from './components/CustomIcon.vue';
 import ImageZoom from './components/ImageZoom.vue';
 import HeroSection from './components/HeroSection.vue';
 import FeaturesSection from './components/FeaturesSection.vue';
-import mediumZoom from 'medium-zoom';
-import { onMounted, watch, nextTick } from 'vue';
-import { useRoute } from 'vitepress';
+import { h } from 'vue';
 import './style.css';
-import 'medium-zoom/dist/style.css';
 
 export default {
   extends: DefaultTheme,
@@ -21,22 +18,21 @@ export default {
     app.component('HeroSection', HeroSection);
     app.component('FeaturesSection', FeaturesSection);
   },
-  setup() {
-    const route = useRoute();
-    const initZoom = () => {
-      nextTick(() => {
-        mediumZoom('.vp-doc img:not(.VPImage):not(.no-zoom)', {
-          background: 'rgba(0, 0, 0, 0.95)',
-          margin: 24,
-        });
-      });
-    };
-    onMounted(() => {
-      initZoom();
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'doc-after': () => {
+        if (typeof window !== 'undefined') {
+          // Динамический импорт medium-zoom только на клиенте
+          import('medium-zoom').then(({ default: mediumZoom }) => {
+            setTimeout(() => {
+              mediumZoom('.vp-doc img:not(.VPImage):not(.no-zoom)', {
+                background: 'rgba(0, 0, 0, 0.95)',
+                margin: 24,
+              });
+            }, 100);
+          });
+        }
+      }
     });
-    watch(
-      () => route.path,
-      () => initZoom(),
-    );
-  },
+  }
 } satisfies Theme;

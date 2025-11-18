@@ -3,6 +3,9 @@
  * Inspired by Majestic RP Wiki design
  * -------------------------------------------------------------------------- */
 
+/* Medium Zoom Styles Import */
+@import 'medium-zoom/dist/style.css';
+
 /**
  * Colors - Dark theme with orange/red accents
  * -------------------------------------------------------------------------- */
