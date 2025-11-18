@@ -46,7 +46,7 @@ export default defineConfig({
     }
   },
   
-  appearance: true,
+  appearance: 'dark',
   
   themeConfig: {
     logo: { 
