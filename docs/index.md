@@ -2,17 +2,18 @@
 layout: home
 
 hero:
-  name: GreenCom Maps
-  tagline: Premium FiveM MLO Projects & Professional Documentation
+  name: "GreenCom Maps"
+  text: "Studio Documentation"
+  tagline: Premium FiveM MLO Projects with Professional Quality & Outstanding Performance
   image:
     src: /images/logo20241k_alpha.png
     alt: GreenCom Mapping
   actions:
     - theme: brand
-      text: Browse Projects →
+      text: 📖 Browse Documentation
       link: /mlo/logistic-company-v2
     - theme: alt
-      text: Join Discord
+      text: 💬 Join Discord
       link: https://discord.gg/P3f8XQWpfc
 
 features:
@@ -22,23 +23,23 @@ features:
     
   - icon: ⚡
     title: Optimized Performance
-    details: Lightweight and efficient maps designed to maintain high server performance.
+    details: Lightweight and efficient maps designed to maintain high server performance without compromise.
     
   - icon: 🎨
     title: Custom Design
-    details: Unique and detailed interiors crafted with attention to every element.
+    details: Unique and detailed interiors crafted with attention to every element and architectural detail.
     
   - icon: 💎
     title: Full Support
-    details: Comprehensive documentation and active community support on Discord.
+    details: Comprehensive documentation and active community support through our Discord server.
     
   - icon: 🔄
     title: Regular Updates
-    details: Continuous improvements and new features based on community feedback.
+    details: Continuous improvements and new features based on community feedback and requests.
     
   - icon: ✅
     title: Tested & Reliable
-    details: Thoroughly tested on multiple servers to ensure stability.
+    details: Thoroughly tested on multiple servers to ensure stability and compatibility.
 ---
 
 <style scoped>

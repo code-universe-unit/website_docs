@@ -2,15 +2,18 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: 'GreenCom Maps',
-  description: 'Premium MLO Projects & Documentation',
+  description: 'Premium FiveM MLO Projects & Studio Documentation',
   lang: 'en-US',
   base: '/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap', rel: 'stylesheet' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap', rel: 'stylesheet' }],
     ['meta', { name: 'theme-color', content: '#099268' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'GreenCom Maps - Premium FiveM MLO Projects' }],
+    ['meta', { property: 'og:description', content: 'Professional FiveM MLO projects with outstanding quality and performance' }],
   ],
   
   // Оптимизация производительности
@@ -21,12 +24,6 @@ export default defineConfig({
   vite: {
     build: {
       minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true
-        }
-      },
       chunkSizeWarningLimit: 1000,
       rollupOptions: {
         output: {
@@ -59,10 +56,10 @@ export default defineConfig({
     },
     
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/mlo/logistic-company-v2' },
+      { text: '🏠 Home', link: '/' },
+      { text: '📚 Documentation', link: '/mlo/logistic-company-v2' },
       { 
-        text: 'Resources',
+        text: '🔗 Resources',
         items: [
           { text: '🎮 Forum CFX', link: 'https://forum.cfx.re/u/greenbeerg_21' },
           { text: '🛒 Tebex Store', link: 'https://GreenCom-mapping.tebex.io/' },
@@ -73,10 +70,11 @@ export default defineConfig({
     sidebar: {
       '/mlo/': [
         {
-          text: 'MLO Projects',
+          text: '📦 MLO Projects',
+          collapsed: false,
           items: [
-            { text: 'Logistic Company V2', link: '/mlo/logistic-company-v2' },
-            { text: 'MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' }
+            { text: '🏢 Logistic Company V2', link: '/mlo/logistic-company-v2' },
+            { text: '🏍️ MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' }
           ]
         }
       ]
@@ -86,8 +84,8 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UC0uhGXCogdAQoAUPqldL71g' }
     ],
     footer: {
-      message: 'GreenCom Mapping - MLO Projects',
-      copyright: 'Copyright © 2025 GreenCom Mapping'
+      message: '🎨 GreenCom Mapping - Premium MLO Projects for FiveM',
+      copyright: 'Copyright © 2025 GreenCom Mapping. All rights reserved.'
     },
     search: {
       provider: 'local'
