@@ -3,8 +3,8 @@
  * Inspired by Majestic RP Wiki design
  * -------------------------------------------------------------------------- */
 
-/* Medium Zoom Styles Import */
-@import 'medium-zoom/dist/style.css';
+/* Image Viewer Styles Import */
+@import 'viewerjs/dist/viewer.css';
 
 /**
  * Colors - Dark theme with orange/red accents
@@ -1419,29 +1419,38 @@ html:not(.dark) .DocSearch-Button {
   box-shadow: 0 2px 8px rgba(9, 146, 104, 0.3) !important;
 }
 
-/* Medium Zoom Custom Styles */
-.medium-zoom-overlay {
-  background: rgba(0, 0, 0, 0.95) !important;
-  z-index: 9999 !important;
+/* Viewerjs Custom Styles - Dark Theme */
+.viewer-backdrop {
+  background-color: rgba(0, 0, 0, 0.95) !important;
 }
 
-.medium-zoom-image {
-  z-index: 10000 !important;
-  cursor: zoom-out !important;
-  border-radius: 8px !important;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8) !important;
+.viewer-button {
+  background-color: rgba(9, 146, 104, 0.8) !important;
+  border: 1px solid rgba(9, 146, 104, 0.3) !important;
+  color: white !important;
 }
 
-.medium-zoom-image--opened {
-  cursor: zoom-out !important;
+.viewer-button:hover {
+  background-color: rgba(9, 146, 104, 1) !important;
+  border-color: rgba(9, 146, 104, 0.5) !important;
+}
+
+.viewer-toolbar > li {
+  background-color: rgba(9, 146, 104, 0.7) !important;
+  border: 1px solid rgba(9, 146, 104, 0.3) !important;
+}
+
+.viewer-toolbar > li:hover {
+  background-color: rgba(9, 146, 104, 0.9) !important;
 }
 
 /* Make images zoomable by default */
 .vp-doc img {
-  cursor: zoom-in;
-  transition: opacity 0.2s ease;
+  cursor: zoom-in !important;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .vp-doc img:hover {
   opacity: 0.9;
+  transform: scale(1.02);
 }

@@ -22,33 +22,59 @@ export default {
   setup() {
     const route = useRoute();
     
-    const initZoom = () => {
+    const initImageViewer = () => {
       // Проверка на клиентскую сторону
       if (typeof window === 'undefined') return;
       
       nextTick(() => {
-        import('medium-zoom').then(({ default: mediumZoom }) => {
-          // Удаляем предыдущие экземпляры
+        import('viewerjs').then(({ default: Viewer }) => {
           const images = document.querySelectorAll('.vp-doc img:not(.VPImage):not(.no-zoom)');
           if (images.length > 0) {
-            mediumZoom(images, {
-              background: 'rgba(0, 0, 0, 0.95)',
-              margin: 24,
+            images.forEach(img => {
+              // Добавляем cursor pointer
+              (img as HTMLElement).style.cursor = 'zoom-in';
+              
+              // Создаем viewer для каждой картинки
+              new Viewer(img as HTMLImageElement, {
+                inline: false,
+                button: true,
+                navbar: false,
+                title: false,
+                toolbar: {
+                  zoomIn: 1,
+                  zoomOut: 1,
+                  oneToOne: 1,
+                  reset: 1,
+                  rotateLeft: 1,
+                  rotateRight: 1,
+                  flipHorizontal: 1,
+                  flipVertical: 1,
+                },
+                tooltip: true,
+                movable: true,
+                zoomable: true,
+                rotatable: true,
+                scalable: true,
+                transition: true,
+                fullscreen: true,
+                keyboard: true,
+                backdrop: true,
+              });
             });
           }
         }).catch(err => {
-          console.error('Failed to load medium-zoom:', err);
+          console.error('Failed to load viewerjs:', err);
         });
       });
     };
     
     onMounted(() => {
       // Инициализация с задержкой для гарантии загрузки DOM
-      setTimeout(initZoom, 300);
+      setTimeout(initImageViewer, 300);
     });
     
     watch(() => route.path, () => {
-      setTimeout(initZoom, 300);
+      setTimeout(initImageViewer, 300);
     });
   }
 } satisfies Theme;
