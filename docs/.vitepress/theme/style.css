@@ -1174,30 +1174,15 @@ html:not(.dark) .vp-doc thead th {
  * Modern Prompt Studio Inspired Enhancements
  * -------------------------------------------------------------------------- */
 
-/* Hero Section with Minimal Glow */
+/* Hero Section - Clean Linear Gradient Only */
 .VPHome {
   position: relative;
-  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(9, 146, 104, 0.03) 0%, transparent 50%),
-              linear-gradient(180deg, var(--vp-c-bg) 0%, rgba(15, 15, 15, 0.98) 100%);
+  background: linear-gradient(180deg, var(--vp-c-bg) 0%, rgba(15, 15, 15, 0.98) 100%);
   overflow: hidden;
 }
 
-.VPHome::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%;
-  height: 40%;
-  background: radial-gradient(circle, rgba(9, 146, 104, 0.02) 0%, transparent 70%);
-  pointer-events: none;
-  opacity: 0.3;
-}
-
 html:not(.dark) .VPHome {
-  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(9, 146, 104, 0.02) 0%, transparent 50%),
-              linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
 }
 
 /* Code Blocks with Glow Effect */
