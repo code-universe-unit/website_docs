@@ -5,7 +5,6 @@ import CustomIcon from './components/CustomIcon.vue';
 import ImageZoom from './components/ImageZoom.vue';
 import HeroSection from './components/HeroSection.vue';
 import FeaturesSection from './components/FeaturesSection.vue';
-import './custom.css';
 import './style.css';
 
 export default {

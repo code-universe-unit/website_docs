@@ -1,14 +1,25 @@
 # [MLO] MC Clubhouse Grapeseed
 
+## Texture Replacement Guide
+
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/WNIQKLO5qHE"
+    title="Texture Replacement Guide"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Changing textures
 
 Main textures and their location in YTD libraries. You can safely replace all the textures in the interior with any you want, but the main thing is to follow the instructions specified in this video (to avoid possible errors or crashes when launching the resource).
 
-**Texture Replacement Guide:** [https://youtu.be/WNIQKLO5qHE](https://youtu.be/WNIQKLO5qHE)
-
 ### Main Textures
 
-<table>
+<table class="media-table" style="--media-col1-width: 280px;">
+  <tbody>
   <tr>
     <td>
       <ImageZoom src="/images/mlo/mc-clubhouse/image-1.png" alt="gc_bclub_exterior" width="200" height="200" />
@@ -143,7 +154,8 @@ Main textures and their location in YTD libraries. You can safely replace all th
       <strong>Texture NAME:</strong> gc_garage_posters_04
     </td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ---
 
@@ -153,7 +165,8 @@ For script creators
 
 ### List of seats
 
-<table>
+<table class="media-table" style="--media-col1-width: 220px;">
+  <tbody>
 
   <tr>
     <td>
@@ -217,7 +230,8 @@ For script creators
       gc_bclub_prop_chest_sofa_03
     </td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ### List of doors
 

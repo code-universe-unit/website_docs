@@ -424,6 +424,24 @@ html:not(.dark) .VPHome {
   width: 100%;
 }
 
+/* Отключение подчеркивания для карточек */
+.project-card a,
+.quick-link {
+  text-decoration: none !important;
+}
+
+.project-card a::after,
+.quick-link::after {
+  display: none !important;
+  content: none !important;
+}
+
+.project-card:hover a::after,
+.quick-link:hover::after {
+  width: 0 !important;
+  display: none !important;
+}
+
 /**
  * Component: Headings - Minimalist Style
  * -------------------------------------------------------------------------- */
@@ -441,6 +459,15 @@ html:not(.dark) .VPHome {
   line-height: 1.3;
 }
 
+.vp-doc h1 .header-anchor,
+.vp-doc h2 .header-anchor,
+.vp-doc h3 .header-anchor,
+.vp-doc h4 .header-anchor,
+.vp-doc h5 .header-anchor,
+.vp-doc h6 .header-anchor {
+  vertical-align: middle;
+}
+
 .vp-doc h1 {
   font-size: 2.25rem;
   border-bottom: 1px solid var(--vp-c-divider);
@@ -450,21 +477,20 @@ html:not(.dark) .VPHome {
 
 .vp-doc h2 {
   font-size: 1.75rem;
-  padding-top: 32px;
-  margin-top: 40px;
+  margin-top: 72px;
   margin-bottom: 16px;
   position: relative;
-  padding-left: 12px;
+  padding-left: 16px;
+  line-height: 1.3;
 }
 
 .vp-doc h2::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: flex;
   width: 3px;
-  height: 70%;
+  height: 60%;
   background: var(--vp-c-brand-1);
   border-radius: 2px;
 }
@@ -795,32 +821,7 @@ html {
   width: 100%;
 }
 
-/* Enhanced headings */
-.vp-doc h1,
-.vp-doc h2,
-.vp-doc h3,
-.vp-doc h4,
-.vp-doc h5,
-.vp-doc h6 {
-  position: relative;
-  padding-left: 0;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.vp-doc h1::before,
-.vp-doc h2::before {
-  content: '';
-  position: absolute;
-  left: -20px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 60%;
-  background: linear-gradient(180deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  border-radius: 2px;
-  opacity: 0.8;
-}
+/* Enhanced headings - removed conflicting variant (kept minimalist above) */
 
 /* Feature cards enhancement */
 .VPFeature {
@@ -920,4 +921,202 @@ html {
   .VPFooter {
     display: none;
   }
+}
+
+/**
+ * Global Alignment & Rhythm
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --gcm-content-max: 860px;
+  --gcm-content-pad: 24px;
+}
+
+/* Keep main doc area centered and readable */
+.vp-doc {
+  max-width: var(--gcm-content-max);
+  margin: 0 auto;
+  padding-inline: var(--gcm-content-pad);
+}
+
+/* Avoid heading anchors being hidden under the navbar */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  scroll-margin-top: 88px;
+}
+
+/* Consistent vertical rhythm across common blocks */
+.vp-doc p,
+.vp-doc ul,
+.vp-doc ol,
+.vp-doc pre,
+.vp-doc blockquote,
+.vp-doc table,
+.vp-doc .custom-block {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Images: centered, responsive, and tidy */
+.vp-doc img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Tables: full-width, neat borders, and spacing */
+.vp-doc table {
+  /* Static table width by default, capped to container */
+  width: var(--gcm-content-max);
+  max-width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 10px;
+  background: var(--vp-c-bg-elv);
+}
+
+.vp-doc thead th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+html:not(.dark) .vp-doc thead th {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--vp-c-border);
+  vertical-align: top;
+}
+
+.vp-doc tr:nth-child(even) td {
+  background: var(--vp-c-bg-soft);
+}
+
+/* Quotes: subtle background with brand accent */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  padding: 12px 16px;
+  margin-inline: 0;
+  background: rgba(9, 146, 104, 0.06);
+  border-radius: 8px;
+  color: var(--vp-c-text-2);
+}
+
+/* Inline code clarity without visual noise */
+.vp-doc code:not(pre code) {
+  background: rgba(9, 146, 104, 0.12);
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+}
+
+/* Code block inner padding */
+.vp-doc [class*='language-'] pre {
+  padding: 18px 20px;
+}
+
+/* List item child spacing & slight indent polish */
+.vp-doc li > :is(p, ul, ol) {
+  margin-top: 8px;
+}
+
+.vp-doc li {
+  padding-left: 2px;
+}
+
+/* Horizontal rule alignment */
+.vp-doc hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 32px 0;
+}
+
+/**
+ * Media Tables (images + labels)
+ * -------------------------------------------------------------------------- */
+
+/* Center content and align images/text neatly for tables that showcase media */
+.vp-doc table.media-table {
+  /* static table width; override per table if needed */
+  --media-table-width: var(--gcm-content-max);
+  /* default preview column width; can be overridden via inline CSS var */
+  --media-col1-width: 340px;
+  /* text column calculated from table width */
+  --media-col2-width: calc(var(--media-table-width) - var(--media-col1-width));
+  table-layout: fixed;
+  width: min(var(--media-table-width), 100%);
+  max-width: none;
+  margin: 0 auto;
+}
+
+.vp-doc table.media-table td {
+  vertical-align: middle;
+}
+
+/* Align preview cell center, text cell left to use full width */
+.vp-doc table.media-table td:first-child {
+  text-align: center;
+  width: var(--media-col1-width);
+}
+.vp-doc table.media-table td:last-child {
+  text-align: left;
+  width: var(--media-col2-width);
+}
+
+/* Ensure inner text block can visually occupy full cell width */
+.vp-doc table.media-table td:last-child > * {
+  display: block;
+  max-width: 100%;
+}
+
+/* First column: reserve predictable space for preview images */
+/* accommodates preview image + cell padding; adjustable via CSS var above */
+.vp-doc table.media-table td:first-child {
+  width: var(--media-col1-width);
+}
+
+/* Make preview images centered and tidy */
+.vp-doc table.media-table img,
+.vp-doc table.media-table .zoom-image {
+  display: block;
+  margin: 8px auto;
+  border-radius: 8px;
+}
+
+/* Remove zebra striping inside media tables to avoid visual extra columns */
+.vp-doc table.media-table tr:nth-child(even) td {
+  background: transparent;
+}
+
+/**
+ * Responsive Video Embeds
+ * -------------------------------------------------------------------------- */
+.vp-doc .video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--vp-shadow-2);
+  background: #000;
+  margin: 16px 0 24px;
+}
+
+.vp-doc .video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

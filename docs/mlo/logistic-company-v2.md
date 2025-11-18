@@ -1,5 +1,18 @@
 # Logistic Company V2
 
+## Texture Replacement Guide
+
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/WNIQKLO5qHE"
+    title="Texture Replacement Guide"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  
+</div>
+
 ## Garage Sets
 
 1. Select the garage set you need
@@ -9,38 +22,32 @@
 
 ### Available Sets
 
-<table>
+<table class="media-table" style="--media-col1-width: 340px;">
+  <tbody>
   <tr>
-    <td><ImageZoom src="/images/mlo/logistic-company/image-1.png" width="200" /></td>
-    <td>
-      <strong>default</strong>
-    </td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-1.png" width="300" /></td>
+    <td><strong>default</strong></td>
   </tr>
   <tr>
-    <td><ImageZoom src="/images/mlo/logistic-company/image-2.png" width="200" /></td>
-    <td>
-      <strong>garage_no_crates</strong>
-    </td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-2.png" width="300" /></td>
+    <td><strong>garage_no_crates</strong></td>
   </tr>
   <tr>
-    <td><ImageZoom src="/images/mlo/logistic-company/image-3.png" width="200" /></td>
-    <td>
-      <strong>garage_no_stops</strong>
-    </td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-3.png" width="300" /></td>
+    <td><strong>garage_no_stops</strong></td>
   </tr>
   <tr>
-    <td><ImageZoom src="/images/mlo/logistic-company/image-4.png" width="200" /></td>
-    <td>
-      <strong>garage_clear</strong>
-    </td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-4.png" width="300" /></td>
+    <td><strong>garage_clear</strong></td>
   </tr>
   <tr>
-    <td><ImageZoom src="/images/mlo/logistic-company/image-5.png" width="200" /></td>
+    <td><ImageZoom src="/images/mlo/logistic-company/image-5.png" width="300" /></td>
     <td>
-      <strong>garage_mechanics</strong>
+    <strong>garage_mechanics</strong>
     </td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ---
 
@@ -48,11 +55,11 @@
 
 Main textures and their location in YTD libraries. You can safely replace all the textures in the interior with any you want, but the main thing is to follow the instructions specified in this video (to avoid possible errors or crashes when launching the resource).
 
-**Texture Replacement Guide:** [https://youtu.be/WNIQKLO5qHE](https://youtu.be/WNIQKLO5qHE)
 
 ### Main Textures
 
-<table>
+<table class="media-table" style="--media-col1-width: 280px;">
+  <tbody>
   <tr>
     <td><ImageZoom src="/images/mlo/logistic-company/image-6.png" width="200" /></td>
     <td>
@@ -89,7 +96,8 @@ Main textures and their location in YTD libraries. You can safely replace all th
       <strong>Texture NAME:</strong> gc_logi_v2_room_names
     </td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ---
 
@@ -99,7 +107,8 @@ For script creators
 
 ### List of warehouse pallets
 
-<table>
+<table class="media-table" style="--media-col1-width: 140px;">
+  <tbody>
   <tr>
     <td><ImageZoom src="/images/mlo/logistic-company/image-11.png" width="100" /></td>
     <td>
@@ -166,11 +175,13 @@ For script creators
       gc_logi_v2_prop_pallet_atomic_01c
     </td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ### List of seats
 
-<table>
+<table class="media-table" style="--media-col1-width: 140px;">
+  <tbody>
   <tr>
     <td><ImageZoom src="/images/mlo/logistic-company/image-20.png" width="100" /></td>
     <td>gc_logi_v2_office_wheel_chair</td>
@@ -199,7 +210,8 @@ For script creators
     <td><ImageZoom src="/images/mlo/logistic-company/image-26.png" width="100" /></td>
     <td>gc_logi_v2_office_chair_static</td>
   </tr>
-</table>
+  </tbody>
+ </table>
 
 ### List of doors
 

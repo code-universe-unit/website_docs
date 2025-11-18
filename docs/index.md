@@ -58,7 +58,8 @@ features:
 }
 
 :deep(.VPFeatures .container) {
-  max-width: 1200px;
+  /* Match VitePress home container width to keep alignment */
+  max-width: 1152px;
   margin: 0 auto;
 }
 
@@ -96,7 +97,7 @@ features:
 
 ## 📦 Our Projects
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem auto 3rem; max-width: 1200px; padding: 0 1rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem auto 3rem; max-width: 1152px; padding: 0 24px; box-sizing: border-box;">
 
 <div class="project-card" style="background: var(--vp-c-bg-elv); border: 1px solid var(--vp-c-border); border-radius: 12px; padding: 24px; transition: all 0.25s ease; text-decoration: none;">
   <div style="width: 56px; height: 56px; background: rgba(9, 146, 104, 0.1); border: 1px solid rgba(9, 146, 104, 0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 28px; line-height: 1; margin-bottom: 16px; transition: all 0.25s ease;">🏢</div>
@@ -133,16 +134,22 @@ features:
 
 .project-card a {
   text-decoration: none !important;
+  position: relative;
 }
 
 .project-card a::after {
+  content: none !important;
   display: none !important;
+}
+
+.project-card:hover a::after {
+  width: 0 !important;
 }
 </style>
 
 ## 🔗 Quick Links
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 2rem 0 5rem 0; padding: 0 1rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 2rem auto 5rem; padding: 0 24px; max-width: 1152px; box-sizing: border-box;">
   <a href="https://forum.cfx.re/u/greenbeerg_21" target="_blank" class="quick-link" style="padding: 1.25rem; background: var(--vp-c-bg-elv); border: 1px solid var(--vp-c-border); border-radius: 10px; text-decoration: none !important; transition: all 0.25s; text-align: center; display: block;">
     <div style="width: 48px; height: 48px; background: rgba(9, 146, 104, 0.1); border: 1px solid rgba(9, 146, 104, 0.2); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1; margin: 0 auto 12px; transition: all 0.25s ease;">🎮</div>
     <div style="font-weight: 600; color: var(--vp-c-text-1); font-size: 0.95rem;">Forum CFX</div>
@@ -171,6 +178,7 @@ features:
 <style>
 .quick-link {
   text-decoration: none !important;
+  position: relative;
 }
 
 .quick-link:hover {
@@ -186,6 +194,11 @@ features:
 }
 
 .quick-link::after {
+  content: none !important;
   display: none !important;
+}
+
+.quick-link:hover::after {
+  width: 0 !important;
 }
 </style>
