@@ -3,9 +3,6 @@
  * Inspired by Majestic RP Wiki design
  * -------------------------------------------------------------------------- */
 
-/* Image Viewer Styles Import */
-@import 'viewerjs/dist/viewer.css';
-
 /**
  * Colors - Dark theme with orange/red accents
  * -------------------------------------------------------------------------- */
@@ -1419,38 +1416,19 @@ html:not(.dark) .DocSearch-Button {
   box-shadow: 0 2px 8px rgba(9, 146, 104, 0.3) !important;
 }
 
-/* Viewerjs Custom Styles - Dark Theme */
-.viewer-backdrop {
-  background-color: rgba(0, 0, 0, 0.95) !important;
-}
-
-.viewer-button {
-  background-color: rgba(9, 146, 104, 0.8) !important;
-  border: 1px solid rgba(9, 146, 104, 0.3) !important;
-  color: white !important;
-}
-
-.viewer-button:hover {
-  background-color: rgba(9, 146, 104, 1) !important;
-  border-color: rgba(9, 146, 104, 0.5) !important;
-}
-
-.viewer-toolbar > li {
-  background-color: rgba(9, 146, 104, 0.7) !important;
-  border: 1px solid rgba(9, 146, 104, 0.3) !important;
-}
-
-.viewer-toolbar > li:hover {
-  background-color: rgba(9, 146, 104, 0.9) !important;
-}
-
-/* Make images zoomable by default */
+/* Custom Image Zoom Styles - ImageZoom Component */
 .vp-doc img {
   cursor: zoom-in !important;
   transition: opacity 0.2s ease, transform 0.2s ease;
+  border-radius: 8px;
 }
 
 .vp-doc img:hover {
   opacity: 0.9;
   transform: scale(1.02);
+}
+
+/* Ensure modal from ImageZoom component has proper z-index */
+.image-modal {
+  z-index: 9999 !important;
 }
