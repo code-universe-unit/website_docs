@@ -71,7 +71,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '🏢 Logistic Company V2', link: '/mlo/logistic-company-v2' },
-            { text: '🏍️ MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' }
+            { text: '🏍️ MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' },
+            { text: '🏙️ Thousand Project', link: '/mlo/thousand-project' }
           ]
         }
       ]
