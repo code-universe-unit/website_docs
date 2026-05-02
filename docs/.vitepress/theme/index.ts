@@ -1,16 +1,12 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress';
-import { Icon } from '@iconify/vue';
-import CustomIcon from './components/CustomIcon.vue';
 import ImageZoom from './components/ImageZoom.vue';
-import './custom.css';
+import './style.css';
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    // Регистрируем глобальные компоненты
-    app.component('Icon', Icon);
-    app.component('CustomIcon', CustomIcon);
+    // Регистрируем только используемые компоненты
     app.component('ImageZoom', ImageZoom);
   }
 } satisfies Theme;

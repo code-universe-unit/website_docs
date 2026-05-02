@@ -1,14 +1,19 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'GreenCome Mapping Wiki',
-  description: 'Documentation for GreenCome Mapping MLO Projects',
+  title: 'GreenCom Maps',
+  description: 'Premium FiveM MLO Projects & Studio Documentation',
   lang: 'en-US',
   base: '/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'preconnect', href: 'https://github.com' }],
-    ['link', { rel: 'dns-prefetch', href: 'https://github.com' }]
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap', rel: 'stylesheet' }],
+    ['meta', { name: 'theme-color', content: '#099268' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'GreenCom Maps - Premium FiveM MLO Projects' }],
+    ['meta', { property: 'og:description', content: 'Professional FiveM MLO projects with outstanding quality and performance' }],
   ],
   
   // Оптимизация производительности
@@ -19,20 +24,11 @@ export default defineConfig({
   vite: {
     build: {
       minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true
-        }
-      },
       chunkSizeWarningLimit: 1000,
       rollupOptions: {
         output: {
           manualChunks: (id) => {
             if (id.includes('node_modules')) {
-              if (id.includes('@iconify')) {
-                return 'iconify'
-              }
               return 'vendor'
             }
           }
@@ -40,37 +36,43 @@ export default defineConfig({
       }
     },
     optimizeDeps: {
-      include: ['@iconify/vue']
+      include: []
     },
     ssr: {
-      noExternal: ['@iconify/vue', 'mark.js']
+      noExternal: ['mark.js']
     }
   },
   
-  appearance: 'dark',
+  appearance: true,
   
   themeConfig: {
-    logo: '/logo.svg',
+    logo: { 
+      light: '/images/logo20241k_alpha.png',
+      dark: '/images/logo20241k_alpha.png',
+      alt: 'GreenCom Maps'
+    },
     
     nav: [
-      { text: 'Documentation', link: '/' },
-      { text: 'MLO Projects', link: '/mlo/logistic-company-v2' },
+      { text: '🏠 Home', link: '/' },
+      { text: '📚 Documentation', link: '/mlo/logistic-company-v2' },
       { 
-        text: 'Links',
+        text: '🔗 Resources',
         items: [
-          { text: 'Forum CFX', link: 'https://forum.cfx.re/u/greenbeerg_21' },
-          { text: 'Tebex Store', link: 'https://greencome-mapping.tebex.io/' },
-          { text: 'Patreon', link: 'https://www.patreon.com/greencome' }
+          { text: '🎮 Forum CFX', link: 'https://forum.cfx.re/u/greenbeerg_21' },
+          { text: '🛒 Tebex Store', link: 'https://GreenCom-mapping.tebex.io/' },
+          { text: '💎 Patreon', link: 'https://www.patreon.com/GreenCom' }
         ]
       }
     ],
     sidebar: {
       '/mlo/': [
         {
-          text: 'MLO Projects',
+          text: '📦 MLO Projects',
+          collapsed: false,
           items: [
-            { text: 'Logistic Company V2', link: '/mlo/logistic-company-v2' },
-            { text: 'MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' }
+            { text: '🏢 Logistic Company V2', link: '/mlo/logistic-company-v2' },
+            { text: '🏍️ MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' },
+            { text: '🏙️ Thousand Project', link: '/mlo/thousand-project' }
           ]
         }
       ]
@@ -80,8 +82,8 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UC0uhGXCogdAQoAUPqldL71g' }
     ],
     footer: {
-      message: 'GreenCome Mapping - MLO Projects',
-      copyright: 'Copyright © 2025 GreenCome Mapping'
+      message: '🎨 GreenCom Mapping - Premium MLO Projects for FiveM',
+      copyright: 'Copyright © 2025 GreenCom Mapping. All rights reserved.'
     },
     search: {
       provider: 'local'

@@ -24,6 +24,10 @@
     "vitepress": "^1.5.0"
   },
   "dependencies": {
-    "@iconify/vue": "^5.0.0"
+    "medium-zoom": "^1.1.0"
+  },
+  "overrides": {
+    "vite": ">=6.1.7",
+    "esbuild": ">=0.24.3"
   }
 }
