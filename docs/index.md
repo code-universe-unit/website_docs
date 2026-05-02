@@ -114,6 +114,13 @@ features:
   <a href="/mlo/mc-clubhouse-grapeseed" style="color: var(--vp-c-brand-1); text-decoration: none; font-weight: 600; font-size: 0.9rem;">View Documentation →</a>
 </div>
 
+<div class="project-card" style="background: var(--vp-c-bg-elv); border: 1px solid var(--vp-c-border); border-radius: 12px; padding: 24px; transition: all 0.25s ease; text-decoration: none;">
+  <div style="width: 56px; height: 56px; background: rgba(9, 146, 104, 0.1); border: 1px solid rgba(9, 146, 104, 0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 28px; line-height: 1; margin-bottom: 16px; transition: all 0.25s ease;">🏙️</div>
+  <h3 style="margin: 0 0 0.75rem; color: var(--vp-c-brand-1); font-size: 1.25rem;">Thousand Project</h3>
+  <p style="color: var(--vp-c-text-2); font-size: 0.9rem; line-height: 1.6; margin: 0 0 1rem;">Documentation for doors, custom YMAPs, and environment-changing files.</p>
+  <a href="/mlo/thousand-project" style="color: var(--vp-c-brand-1); text-decoration: none; font-weight: 600; font-size: 0.9rem;">View Documentation →</a>
+</div>
+
 </div>
 
 <style>
