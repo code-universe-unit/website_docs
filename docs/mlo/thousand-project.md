@@ -213,7 +213,6 @@ Common files to review:
 resources\[esx_addons]\esx_banking\config.lua
 resources\[ox]\ox_banking\data\banks.json
 resources\[qb]\qb-banking\config.lua
+qbox
 resources\[standalone]\Renewed-Banking\config.lua
 ```
-
-For Qbox servers, review the banking resource you use with Qbox, most commonly `ox_banking` or `Renewed-Banking`, and make sure no old bank entries remain in the Thousand Project area.
