@@ -70,7 +70,8 @@ export default defineConfig({
           text: 'MLO Projects',
           items: [
             { text: 'Logistic Company V2', link: '/mlo/logistic-company-v2' },
-            { text: 'MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' }
+            { text: 'MC Clubhouse Grapeseed', link: '/mlo/mc-clubhouse-grapeseed' },
+            { text: 'Thousand', link: '/mlo/thousand' }
           ]
         }
       ]
