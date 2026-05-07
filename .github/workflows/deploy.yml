@@ -1,9 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Запускается при push в main ветку
+  # Запускается при push в основную ветку
   push:
-    branches: [main]
+    branches: [main, master]
   
   # Позволяет запускать вручную из вкладки Actions
   workflow_dispatch:
