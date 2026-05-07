@@ -155,3 +155,20 @@ bh1_lod_emissive_6_21_slod3_children.ydd
 bh1_lod_slod3_children.ydd
 bh1_props_combo1105_slod_children.ydd
 ```
+
+---
+
+## Possible issues and conflicts
+
+If you still have old banking spots, blips, peds, targets, or interaction zones in this area after installing the map, check your banking resource configuration and remove, disable, or move the conflicting locations.
+
+Common files to review:
+
+```
+resources\[esx_addons]\esx_banking\config.lua
+resources\[ox]\ox_banking\data\banks.json
+resources\[qb]\qb-banking\config.lua
+resources\[standalone]\Renewed-Banking\config.lua
+```
+
+For Qbox servers, review the banking resource you use with Qbox, most commonly `ox_banking` or `Renewed-Banking`, and make sure no old bank entries remain in the Thousand Project area.
