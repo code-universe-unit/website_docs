@@ -2,6 +2,8 @@
 
 ## Possible issues and conflicts
 
+<ImageZoom src="/images/mlo/thousand/main.png" alt="Possible issues and conflicts" width="700" />
+
 The modification disables the bank interior. If your server has scripts linked to this bank, there may still be remaining markers, NPCs, or map blips.
 
 If you have robbery scripts related to this bank, some props may remain floating in the air.
@@ -32,6 +34,8 @@ Additionally, to receive a free solution for this issue, use the promo code avai
 ---
 
 ## Ped (NPC) Issues
+
+<ImageZoom src="/images/mlo/thousand/ped.png" alt="Ped issues" width="700" />
 
 The NavMesh file used in the modification is disabled using PolyZone. One downside of this method is that it freezes NPCs around the building, which makes the gameplay feel somewhat unusual.
 
