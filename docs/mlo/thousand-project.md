@@ -24,16 +24,27 @@ If you have robbery scripts related to this bank, some props may remain floating
 
 All scripts configured through config files can be adjusted to remove the coordinates related to this bank.
 
-Common files to review:
+Check the banking resource used by your framework:
+
+### ESX
 
 ```text
 resources\[esx_addons]\esx_banking\config.lua
-resources\[ox]\ox_banking\data\banks.json
-resources\[qb]\qb-banking\config.lua
-resources\[standalone]\Renewed-Banking\config.lua
 ```
 
-For Qbox servers, also check:
+### OX
+
+```text
+resources\[ox]\ox_banking\data\banks.json
+```
+
+### QB
+
+```text
+resources\[qb]\qb-banking\config.lua
+```
+
+### Qbox
 
 ```text
 resources\[standalone]\Renewed-Banking\config.lua
